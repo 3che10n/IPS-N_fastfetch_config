@@ -1,0 +1,122 @@
+
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+    "logo": {
+        "type": "auto",
+        "source": "~/.config/fastfetch/ASCII/GMS-ascii-art.txt",
+          "padding": {
+          "top": 1
+          },
+},
+    "display": {
+          "separator": " ➜  ",
+            "constants": [
+            "──────────────────────────────"
+        ]
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "┌{$1} {#1}General Massive Systems{#} ─────────────────────────┐"
+        },
+        "break",
+         {
+            "type": "os",
+            "key": "OS   ",
+            "keyColor": "red",  // = color1
+        },
+        {
+            "type": "kernel",
+            "key": " ├  ",
+            "keyColor": "red",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": " ├ 󰏖 ",
+            "keyColor": "red",
+        },
+        {
+            "type": "shell",
+            "key": " └  ",
+            "keyColor": "red",
+        },
+        "break",
+        {
+            "type": "wm",
+            "key": "WM   ",
+            "keyColor": "blue",
+        },
+        {
+            "type": "wmtheme",
+            "key": " ├ 󰉼 ",
+            "keyColor": "blue",
+        },
+        {
+            "type": "icons",
+            "key": " ├ 󰀻 ",
+            "keyColor": "blue",
+        },
+        {
+            "type": "cursor",
+            "key": " ├  ",
+            "keyColor": "blue",
+        },
+        {
+            "type": "terminal",
+            "key": " ├  ",
+            "keyColor": "blue",
+        },
+        {
+            "type": "terminalfont",
+            "key": " └  ",
+            "keyColor": "blue",
+        },
+        "break",
+        {
+            "type": "host",
+            "format": "{5} {1} Type {2}",
+            "key": "PC   ",
+            "keyColor": "cyan",
+        },
+        {
+            "type": "cpu",
+            "format": "{1} ({3}) @ {7} GHz",
+            "key": " ├  ",
+            "keyColor": "cyan",
+        },
+        {
+            "type": "gpu",
+            "format": "{1} {2} @ {12} GHz",            
+            "key": " ├ 󰢮 ",
+            "keyColor": "cyan",
+        },
+        {
+            "type": "memory",
+            "key": " ├  ",
+            "keyColor": "cyan",
+        },
+        {
+            "type": "swap",
+            "key": " ├ 󰓡 ",
+            "keyColor": "cyan",
+        },
+        {
+            "type": "disk",
+            "key": " ├ 󰋊 ",
+            "keyColor": "cyan",
+        },
+        "break",
+                {
+            "type": "colors",
+            "paddingLeft": 34,
+            "symbol": "circle"
+        },
+        {
+            "type": "custom",
+            "format": "└────────────────────── GMS COMP/CON Unit Mk XI Rev 11.4.1c ─────────────────────┘"
+        },
+        "break",
+    ]
+}
