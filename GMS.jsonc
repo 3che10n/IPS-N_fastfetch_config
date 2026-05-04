@@ -11,7 +11,6 @@
     },
     "color": {             // Override logo colors, change "red" to your prefered color (see https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit)
         "1": "red",
-    }
 },
     "display": {
           "separator": " ➜  ",
