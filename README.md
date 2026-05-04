@@ -9,5 +9,5 @@ git clone https://github.com/Lupo-Byte/GMS_fastfetch_config
 
 ## Usage
 ```bash
-fastfetch -c GMS
+fastfetch -c GMS_fastfetch_config\GMS
 ```
