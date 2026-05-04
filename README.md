@@ -2,7 +2,7 @@
 A config for fastfetch based on General Massive Systems from the Lancer TTRPG
 
 ## Requirements
-- Fastfetch[https://github.com/fastfetch-cli/fastfetch]
+- [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
 ## Install 
 ```bash
