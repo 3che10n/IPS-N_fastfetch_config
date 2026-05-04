@@ -1,5 +1,5 @@
-# GMS_fastfetch_config
-GMS themed config for fastfetch
+# GMS fastfetch config
+A config for fastfetch based on General Massive Systems from the Lancer TTRPG
 
 ## Install 
 ```bash
